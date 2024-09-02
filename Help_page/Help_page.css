@@ -1,0 +1,67 @@
+.hidden {
+  display: none;
+}
+
+.topnav {
+  background-color: #fcfcfc;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #1c1a1a;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+button {
+  transition: background-color 0.3s ease; /* 讓顏色變化更平滑 */
+}
+
+button {
+transition: background-color 0.3s ease; /* 讓顏色變化更平滑 */
+}
+
+button:hover {
+/* 可選的全局懸停樣式 */
+}
+
+/* 按鈕特定的懸停顏色 */
+.sign-in:hover {
+background-color: #e0e2e4; /* Sign In 按鈕懸停顏色 */
+}
+
+.my-account:hover {
+background-color: #151515; /* My Account 按鈕懸停顏色 */
+}
+
+
+.change-button {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.change-button > div {
+  transition: background-color 0.5s ease;
+}
+
+.change-button:hover > div {
+  background-color: #b0afaffe;
+}
